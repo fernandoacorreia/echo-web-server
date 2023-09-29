@@ -1,7 +1,13 @@
 # echo-web-server
 A sample web server that just echoes requests
 
-## Usage
+## Running as a script
+
+```
+PORT=8888 ./files/opt/echo/echo.py
+```
+
+## Running in a container
 
 ```
 docker build -t echo-web-server .
